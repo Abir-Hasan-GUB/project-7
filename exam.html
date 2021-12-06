@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>exam</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- ----------- External CSS -------------- -->
+  <link rel="stylesheet" href="css/mini-event-calendar.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <section id="examControll">
+    <div class="container-fluid">
+
+      <div class="topNavForMobile d-md-none">
+        <ul class="nav justify-content-end py-3">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <img src="images/notification.svg" alt="notification" class="img-fluid">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <img src="images/logout.svg" alt="" class="img-fluid">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <img src="images/mobileBar.png" alt="" class="img-fluid mobileMenuControler">
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="row">
+
+        <!-- ------------ Left Navigation --------------- -->
+        <div class="col-md-1 px-0 examLeftMenu">
+          <div class="closeBtnForMobile d-md-none text-right pt-4 pr-4">
+            <img src="images/close.png" alt="closeBtn" class="img-fluid closeBtn">
+          </div>
+          <div class="userPhoto text-center">
+            <img src="images/profile.png" alt="" class="img-fluid">
+          </div>
+          <div class="leftMenuList">
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action">
+                <img src="images/dashboard.png" alt="" class="img-fluid">
+                <span> Dashboard</span>
+              </a>
+              <a href="profile.html" class="list-group-item list-group-item-action">
+                <img src="images/user.png" alt="" class="img-fluid">
+                <span> Profile </span>
+
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <img src="images/faculty.png" alt="" class="img-fluid">
+                <span> Faculty </span>
+
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <img src="images/staff.png" alt="" class="img-fluid">
+                <span> Staff </span>
+
+              </a>
+              <a href="#" class="list-group-item list-group-item-action  " tabindex="-1" aria-="true">
+                <img src="images/student.png" alt="" class="img-fluid">
+                <span> Students </span>
+
+              </a>
+              <a href="#" class="list-group-item list-group-item-action  " tabindex="-1" aria-="true">
+                <img src="images/programs.png" alt="" class="img-fluid">
+                <span> Programs </span>
+
+              </a>
+              <a href="exam.html" class="list-group-item list-group-item-action active" tabindex="-1" aria-="true">
+                <img src="images/exam.png" alt="" class="img-fluid">
+                <span> Exams </span>
+
+              </a>
+              <a href="#" class="list-group-item list-group-item-action  " tabindex="-1" aria-="true">
+                <img src="images/calender2.png" alt="" class="img-fluid">
+                <span> Timetable </span>
+
+              </a>
+              <a href="#" class="list-group-item list-group-item-action  " tabindex="-1" aria-="true">
+                <img src="images/setting.png" alt="" class="img-fluid">
+                <span> Settings </span>
+
+              </a>
+              <a href="#" class="list-group-item list-group-item-action  " tabindex="-1" aria-="true">
+                <img src="images/logout.png" alt="" class="img-fluid">
+                <span> Log Out </span> </a>
+
+            </div>
+          </div>
+        </div>
+        <!-- ------------------- Main Content -------------------- -->
+        <div class="col-md-11">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="dashboardExamTop d-flex justify-content-between">
+                <h1>Exams</h1>
+                <button class="btn button button2">Create +</button>
+              </div>
+              <div class="examSubjectCardControll">
+                <div class="singleExam">
+                  <!-- ----------------- User Exam Information --------------------- -->
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-sm-3 calender">
+                          <div class="calendar2"></div>
+                        </div>
+                        <div class="col-sm-9 calenderRight">
+                          <h1>1. Principals of Physics (Phy 101)</h1>
+                          <div class="row">
+                            <div class="col-sm-3">
+                              <p>Posted: Monday, 13th April 2020</p>
+                              <h3><a href="#">Edit</a></h3>
+                            </div>
+                            <div class="col-sm-3">
+                              <p>Posted: Monday, 13th April 2020</p>
+                              <h3><a href="#">Delete</a></h3>
+                            </div>
+                            <div class="col-sm-3">
+                              <p class="calenderP">Total points: 100 (Contributes 75% to total grade)</p>
+                              <p></p>
+                              <h3 class="extraTop">Time: 1:00 - 4:00pm</h3>
+                            </div>
+                            <div class="col-sm-3">
+                              <p></p>
+                              <h3 class="extraTop removeBorder extraTop2">Exam Grades</h3>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-sm-3 calender">
+                          <div class="calendar2"></div>
+                        </div>
+                        <div class="col-sm-9 calenderRight">
+                          <h1>2. Introduction to Computer Programming (IPC 301)</h1>
+                          <div class="row">
+                            <div class="col-sm-3">
+                              <p>Posted: Monday, 13th April 2020</p>
+                              <h3><a href="#">Edit</a></h3>
+                            </div>
+                            <div class="col-sm-3">
+                              <p>Posted: Monday, 13th April 2020</p>
+                              <h3><a href="#">Delete</a></h3>
+                            </div>
+                            <div class="col-sm-3">
+                              <p class="calenderP">Total points: 100 (Contributes 75% to total grade)</p>
+                              <p></p>
+                              <h3 class="extraTop">Time: 1:00 - 4:00pm</h3>
+                            </div>
+                            <div class="col-sm-3">
+                              <p></p>
+                              <h3 class="extraTop removeBorder">Exam Grades</h3>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-sm-3 calender">
+                          <div class="calendar2"></div>
+                        </div>
+                        <div class="col-sm-9 calenderRight">
+                          <h1>3. Introduction ot Control System (E.E.E 305)</h1>
+                          <div class="row">
+                            <div class="col-sm-3">
+                              <p>Posted: Monday, 13th April 2020</p>
+                              <h3><a href="#">Edit</a></h3>
+                            </div>
+                            <div class="col-sm-3">
+                              <p>Posted: Monday, 13th April 2020</p>
+                              <h3><a href="#">Delete</a></h3>
+                            </div>
+                            <div class="col-sm-3">
+                              <p class="calenderP">Total points: 100 (Contributes 75% to total grade)</p>
+                              <p></p>
+                              <h3 class="extraTop">Time: 1:00 - 4:00pm</h3>
+                            </div>
+                            <div class="col-sm-3">
+                              <p></p>
+                              <h3 class="extraTop removeBorder">Exam Grades</h3>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-sm-3 calender">
+                          <div class="calendar2"></div>
+                        </div>
+                        <div class="col-sm-9 calenderRight">
+                          <h1>4. Electrical Transmission Engineering (ETE 505)</h1>
+                          <div class="row">
+                            <div class="col-sm-3">
+                              <p>Posted: Monday, 13th April 2020</p>
+                              <h3><a href="#">Edit</a></h3>
+                            </div>
+                            <div class="col-sm-3">
+                              <p>Posted: Monday, 13th April 2020</p>
+                              <h3><a href="#">Delete</a></h3>
+                            </div>
+                            <div class="col-sm-3">
+                              <p class="calenderP">Total points: 100 (Contributes 75% to total grade)</p>
+                              <p></p>
+                              <h3 class="extraTop">Time: 1:00 - 4:00pm</h3>
+                            </div>
+                            <div class="col-sm-3">
+                              <p></p>
+                              <h3 class="extraTop removeBorder">Exam Grades</h3>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-sm-3 calender">
+                          <div class="calendar2"></div>
+                        </div>
+                        <div class="col-sm-9 calenderRight">
+                          <h1>5. Electrical Control System ||| (ECS 503)</h1>
+                          <div class="row">
+                            <div class="col-sm-3">
+                              <p>Posted: Monday, 13th April 2020</p>
+                              <h3><a href="#">Edit</a></h3>
+                            </div>
+                            <div class="col-sm-3">
+                              <p>Posted: Monday, 13th April 2020</p>
+                              <h3><a href="#">Delete</a></h3>
+                            </div>
+                            <div class="col-sm-3">
+                              <p class="calenderP">Total points: 100 (Contributes 75% to total grade)</p>
+                              <p></p>
+                              <h3 class="extraTop">Time: 1:00 - 4:00pm</h3>
+                            </div>
+                            <div class="col-sm-3">
+                              <p></p>
+                              <h3 class="extraTop removeBorder">Exam Grades</h3>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- ------------------ Dashboard Right Part -------------- -->
+            <div class="col-md-3 px-5 pt-md-4 pt-1 dashboardRightCtrl">
+              <ul class="nav justify-content-end bottomLoginControll">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/notification.svg" alt="notification" class="img-fluid">
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/logout.svg" alt="" class="img-fluid">
+                  </a>
+                </li>
+              </ul>
+
+              <div class="card rightDashCard">
+                <div class="card-body">
+                  <div class="cardTop d-flex">
+                    <img src="images/logo.png" alt="logo" class="img-fluid rightLogo">
+                    <h3>Moshood Abiola <br>
+                      Polytechnic <br>
+                      Abeokute (MAPOLY)
+                    </h3>
+                  </div>
+
+                  <div class="cardLink">
+                    <p><img src="images/email.png" alt="email" class="img-fluid"><a
+                        href="mailto:rector@maploy.edu.ng">rector@maploy.edu.ng</a></p>
+                    <p><img src="images/call.png" alt="call" class="img-fluid"><a
+                        href="callto:rector@maploy.edu.ng">07063331234</a></p>
+                    <p><img src="images/link.png" alt="link" class="img-fluid"><a
+                        href="http://maploy.edu.org">http://maploy.edu.org</a></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="rightDashCalender">
+                <div class="calendar2"></div>
+              </div>
+
+              <div class="quickLink">
+                <h3>Quick Links</h3>
+                <div class="quickAllLink">
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#">Staff Forum</a>
+                    <li>
+                      <a href="#">Learning resources</a>
+                    </li>
+                    <li>
+                      <a href="#">Time tables</a>
+                    </li>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="js/mini-event-calendar.min.js"></script>
+  <script>
+    var db_events = [{
+        title: "Board members meeting.",
+        date: 1532381440036,
+        link: "events.com/ev2"
+      },
+      {
+        title: "Delaware branch opening.",
+        date: 1532467961534,
+        link: "events.com/ev1"
+      },
+      {
+        title: "An important event.",
+        date: 1532554405128,
+        link: "events.com/ev1"
+      }
+    ];
+
+    $(document).ready(function () {
+      $(".calendar2").MEC({
+        calendar_link: "example.com/myCalendar",
+        events: db_events
+      });
+
+      //if you don't have events, use
+      $(".calendar2").MEC();
+    });
+  </script>
+
+  <script>
+    // controll side menu
+    let closeBtn = document.querySelector('.closeBtn');
+    let examLeftMenu = document.querySelector('.examLeftMenu');
+    let mobileMenuControler = document.querySelector('.mobileMenuControler');
+
+    closeBtn.addEventListener('click', () => {
+      examLeftMenu.style.width = "0";
+    })
+    mobileMenuControler.addEventListener('click', () => {
+      examLeftMenu.style.width = "65%";
+    })
+  </script>
+
+</body>
+
+</html>

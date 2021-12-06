@@ -1,0 +1,442 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+.navbar {
+  background: #4b4996;
+}
+.navbar .nav-link {
+  margin-right: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+}
+.navbar .Headerlogo {
+  max-height: 5rem;
+}
+
+.button {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  background: #4b4996;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  padding: 0.5rem 2.5rem;
+}
+
+.button:hover {
+  color: #fff;
+}
+
+#banner .bannerTitle {
+  font-size: 6.4rem;
+  font-weight: 500;
+  color: #5a5fb6;
+  padding-top: 15rem;
+}
+
+#banner .bannerText {
+  padding-top: 3rem;
+  font-size: 1.4rem;
+  color: #5c5c5c;
+}
+
+#banner .loginBtn {
+  margin-top: 5rem;
+}
+
+#calTbody .a-date {
+  color: #000;
+}
+
+.examLeftMenu {
+  background: #10277c;
+}
+
+.userPhoto img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-top: 3rem;
+}
+
+.leftMenuList img {
+  height: 2rem;
+}
+
+.leftMenuList span {
+  display: block;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.leftMenuList .list-group-item {
+  margin-top: 1.5rem;
+  text-align: center;
+  background: #10277c;
+}
+
+.list-group-item.active {
+  border: none;
+  z-index: 2;
+  color: #fff;
+  background-color: #00000042;
+  border-color: #000000;
+  box-shadow: 9px 9px 5px -7px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: 9px 9px 5px -7px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 9px 9px 5px -7px rgba(0, 0, 0, 0.68);
+}
+
+.button2 {
+  background: #10277c;
+  box-shadow: 9px 9px 5px -7px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: 9px 9px 5px -7px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 9px 9px 5px -7px rgba(0, 0, 0, 0.68);
+}
+
+.dashboardExamTop {
+  margin-top: 3rem;
+}
+.dashboardExamTop h1 {
+  font-size: 3rem;
+  color: #203773;
+}
+
+.singleExam {
+  margin-top: 3rem;
+}
+.singleExam .card {
+  border: none;
+  margin-bottom: 4rem;
+}
+.singleExam .calender {
+  width: 100%;
+}
+
+.calendar2 {
+  background: transparent;
+  border: 0.1rem solid rgba(0, 0, 0, 0.596);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.calendar2 .a-date {
+  color: #000000;
+}
+.calendar2 #monthYear {
+  color: #000;
+}
+.calendar2 #calTitle button {
+  outline: 0;
+  display: block;
+  border: none;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  line-height: 60px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.calendar2 #calTitle button svg {
+  fill: #000000;
+}
+
+#calTbody .a-date:active,
+#calTbody .a-date:focus {
+  background: #10277c;
+  color: #ffffff;
+}
+
+#calTbody .a-date {
+  cursor: pointer;
+  padding: 0.3rem;
+  border: 0.1rem solid transparent;
+  font-size: 0.8rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+#calTbody .a-date.current {
+  background: #10277c;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  border: none;
+}
+
+#calTitle {
+  padding: 0;
+}
+
+#calThead > div {
+  font-size: 1.1em;
+  padding: 0.2em;
+  color: #000;
+}
+
+.calenderP {
+  position: absolute;
+  width: 132%;
+}
+
+.calenderRight {
+  border-bottom: 0.2rem solid rgba(0, 0, 0, 0.219);
+}
+.calenderRight h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+.calenderRight p {
+  font-size: 1.3rem;
+}
+.calenderRight h3 {
+  margin-top: 6rem;
+  color: #007bff;
+  border-right: 0.2rem solid rgba(0, 0, 0, 0.219);
+}
+.calenderRight .extraTop {
+  margin-top: 8rem;
+}
+
+.removeBorder {
+  border: none !important;
+}
+
+.dashboardRightCtrl {
+  background: #e5e5e57a;
+}
+.dashboardRightCtrl .rightLogo {
+  height: 10rem;
+  margin-right: 1rem;
+}
+.dashboardRightCtrl .rightDashCard {
+  background: #10277c;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  margin-top: 8rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+.dashboardRightCtrl .rightDashCard h3 {
+  color: #fff;
+  font-size: 1.9rem;
+  line-height: 1.7;
+}
+.dashboardRightCtrl .rightDashCard .cardLink {
+  margin-top: 3rem;
+}
+.dashboardRightCtrl .rightDashCard .cardLink p {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.dashboardRightCtrl .rightDashCard .cardLink p a {
+  font-size: 1.7rem;
+  color: #fff;
+}
+.dashboardRightCtrl .rightDashCard .cardLink p img {
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.rightDashCalender {
+  margin-top: 5rem;
+}
+.rightDashCalender .calendar2 {
+  background: #fff;
+  border: none;
+}
+.rightDashCalender #calTbody .a-date {
+  cursor: pointer;
+  padding: 1rem;
+  border: 0.1rem solid transparent;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.rightDashCalender #calTbody .a-date.current {
+  background: #10277c;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  border: none;
+}
+
+.quickLink {
+  background: white;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  margin-bottom: 8rem;
+}
+.quickLink h3 {
+  font-size: 1.9rem;
+}
+.quickLink .quickAllLink {
+  margin-top: 3rem;
+}
+.quickLink .quickAllLink ul li {
+  font-size: 1.7rem;
+  margin-bottom: 0.8rem;
+}
+
+.singleProfileCardView {
+  width: 80%;
+  margin: 0 auto;
+  border: 0.1rem solid #000;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  padding: 1rem;
+}
+.singleProfileCardView .card {
+  border: none;
+}
+.singleProfileCardView .card .cardImg img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.profileCard .card .propicBorder {
+  background: rgba(0, 0, 0, 0.26);
+  height: 0.1rem;
+}
+
+.profileCard .card .row {
+  margin-bottom: 1rem;
+}
+
+.profileCard .card .userPropertise {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.profileCard .card .userPropertiseDetails {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.profileCard .card .card-footer {
+  padding-right: 7rem;
+  background: transparent;
+  border: none;
+}
+.profileCard .card .card-footer .fl1 {
+  border-right: 0.1rem solid rgba(0, 0, 0, 0.411);
+}
+.profileCard .card .card-footer span {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.profileCard .card .card-footer span a {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 575px) {
+  #banner .bannerTitle {
+    font-size: 5rem;
+    font-weight: 500;
+    color: #5a5fb6;
+    padding-top: 5rem;
+  }
+  .topNavForMobile .nav-item {
+    padding-right: 1rem;
+  }
+  .examLeftMenu {
+    position: absolute;
+    z-index: 99999;
+    overflow: hidden;
+    width: 0;
+    top: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+  }
+  .examLeftMenu .closeBtn {
+    cursor: pointer;
+  }
+  .calenderRight {
+    padding-bottom: 3rem;
+  }
+  .calenderRight h1 {
+    padding-top: 2.5rem;
+  }
+  .calenderRight h3 {
+    margin-top: 1rem;
+    border-right: none;
+  }
+  .calenderRight .extraTop {
+    margin-top: 3rem;
+  }
+  .calenderRight .extraTop2 {
+    margin-top: 0;
+  }
+  .singleExam .card {
+    margin-bottom: 1rem;
+  }
+  .dashboardRightCtrl .rightDashCard {
+    margin-top: 3rem;
+  }
+  .dashboardRightCtrl .rightDashCard h3 {
+    font-size: 1.5rem;
+  }
+  .singleProfileCardView {
+    width: 100%;
+  }
+  .dashboardExamTop h1 {
+    padding-bottom: 2rem;
+  }
+  .bottomLoginControll {
+    display: none !important;
+  }
+  .calenderP {
+    position: static;
+    width: 100%;
+  }
+}
